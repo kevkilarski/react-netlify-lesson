@@ -1,38 +1,38 @@
 .App {
+  background: url('https://www.chiquita.com/wp-content/uploads/2019/12/Chiquita_Banana_Class_Extra_Yellow.jpg');
+  background-color: rgba(181, 184, 47, 0.8);
+  background-blend-mode: multiply;
+}
+
+h1 {
+  background: yellow;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form, li {
+  text-align: center;
+  list-style-type: none;
+  margin-left: -40px;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 30%;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+label {
+  font-size: 1.4rem;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  margin: 1rem 0;
+}
+
+button {
+  width: 30%;
+  margin: 0 auto;
 }
